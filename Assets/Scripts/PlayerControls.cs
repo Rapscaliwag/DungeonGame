@@ -7,7 +7,7 @@ public class PlayerControls : MonoBehaviour
 
 	void Update ()
     {
-        //This will allow us to test taking health away from player
+        //This will allow us to test taking health away from player.
         if (Input.anyKeyDown)
             this.transform.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
 	}
