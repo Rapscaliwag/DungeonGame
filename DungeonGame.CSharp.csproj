@@ -68,8 +68,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AttackButtonAwake.cs" />
     <Compile Include="Assets\Scripts\AttackSelect.cs" />
     <Compile Include="Assets\Scripts\CombatState.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />

@@ -2,13 +2,13 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class PlayerHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
-    public int initialHealth = 100;
+    public int initialHealth = 300;
     public int currentHealth;
     public Slider healthBar;
 
-    void Awake ()
+    void Awake()
     {
         currentHealth = initialHealth;
     }
